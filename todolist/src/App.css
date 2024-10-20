@@ -1,0 +1,85 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.create_form input, ::-webkit-input-placeholder {
+    width: 300px;
+    padding:12px 0px 12px 0px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.create_form button {
+    padding: 12px 20px;
+    margin: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .create_form button:hover {
+    background-color: #0056b3;
+  }
+
+.task {
+    display: flex;
+    align-items: center;
+    width: 345px;
+    justify-content: space-between;
+    /* background-color: black; */
+    /* color: white; */
+    height: 35px;
+    padding: 2px 5px 2px 5px;
+}
+
+.checkbox {
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.checkbox .icon{
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.task div span {
+    margin: 0px 5px 0px 4px;
+    /* display: flex; */
+}
+
+.task div .icon {
+    cursor: pointer;
+}
+
+.delete .icon{
+    color: burlywood;
+    /* margin-top: 5px; */
+}
+
+.icon:hover {
+    color:rgb(177, 83, 83);
+}
+
+.done {
+    background-color: #AFE1AF;
+    width: 350px;
+    border-radius: 10px;
+    color: darkolivegreen;
+    margin: 5px;
+}
+
+.undone {
+    background-color: beige;
+    width: 350px;
+    border-radius: 10px;
+    color: rgb(135, 114, 74);
+    margin: 5px;
+}
